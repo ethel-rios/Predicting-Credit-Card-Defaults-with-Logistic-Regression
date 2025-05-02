@@ -27,7 +27,7 @@ Developed a logistic regression model that reduces credit card default losses by
 - Good Customers Rejected: 14 (Lost $35,000)
 - Net Savings: $50,000.00 total | $625.00 per application
 
-### Technical Skills Demonstrated
+## Technical Skills Demonstrated
 - Data Processing:	Pandas, NumPy, Stratified Sampling
 - Feature Selection: SelectKBest, ANOVA F-Test
 - Modeling: Logistic Regression with class_weight='balanced'

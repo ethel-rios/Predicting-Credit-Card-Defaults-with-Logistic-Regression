@@ -10,17 +10,17 @@ Developed a logistic regression model to predict credit card defaults and optimi
 ## 🎯 Business Objectives
 | Goal | Metric | Achievement |
 |------|--------|-------------|
-| Reduce default costs | Cost/Event < $1,250 | ✅ **$625./event** |
-| Improve risk detection | AUC > 0.5 | ✅ **0.834 AUC** |
-| Maintain precision in approvals | Precision > 25% | ✅ **54.8%** |
-| Avoid false rejections of good clients|Negative Predictive Value > 75%| ✅ **93.9%** |
+| Reduce default costs | Cost/Event < $1,250 | **$625./event** |
+| Improve risk detection | AUC > 0.5 | **0.834 AUC** |
+| Maintain precision in approvals | Precision > 25% | **54.8%** |
+| Avoid false rejections of good clients|Negative Predictive Value > 75%| **93.9%** |
 
-## 🗂 Dataset Overview
+## Dataset Overview
 
-📦 **Dataset Summary:**  
-- **📊 400 rows** | **📁 8 columns**  
+**Dataset Summary:**  
+- **400 rows** | ** 8 columns**  
 
-🔢 **Numerical Columns**:  
+**Numerical Columns**:  
 
 | Feature            | Description                 |
 | ------------------ | --------------------------- |
@@ -34,7 +34,7 @@ Developed a logistic regression model to predict credit card defaults and optimi
 | `outcomes`         | 1 = Default, 0 = No Default |
 
 
-## ⚙️ Python Analysis Process  
+## Python Analysis Process  
 ### 1: Data Overview**  
 ✔ View Table Structure  
 ✔ Check for Missing Values  

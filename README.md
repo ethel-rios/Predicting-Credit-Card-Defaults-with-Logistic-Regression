@@ -18,7 +18,7 @@ Developed a logistic regression model to predict credit card defaults and optimi
 ## Dataset Overview
 
 **Dataset Summary:**  
-- **400 rows** | ** 8 columns**  
+- **400 rows** | **8 columns**
 
 **Numerical Columns**:  
 

@@ -35,7 +35,7 @@ Developed a logistic regression model to predict credit card defaults and optimi
 
 
 ## Python Analysis Process  
-### 1: Data Overview**  
+### 1: Data Overview
 ✔ View Table Structure  
 ✔ Check for Missing Values  
 ✔ Visualize distributions

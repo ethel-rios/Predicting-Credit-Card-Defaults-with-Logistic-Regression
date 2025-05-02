@@ -18,9 +18,9 @@ Developed a logistic regression model that reduces credit card default losses by
 ## Key Insights
 
 ### Top 3 Predictors of Default
-1. **Credit Card Debt**  
-2. **Employment Tenure**  
-3. **Customer Age**
+1. Credit Card Debt  
+2. Employment Tenure
+3. Customer Age
 
 ### Financial Impact Analysis
 - Defaults Prevented: 17 (Saved $85,000)

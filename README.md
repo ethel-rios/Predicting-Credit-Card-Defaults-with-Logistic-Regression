@@ -2,10 +2,10 @@
 **`Logistic Regression Model | Cost-Optimized Thresholds | Business Impact`**
 
 ## Introduction
-Developed a logistic regression model to predict credit card defaults and optimize financial decision-making. The model is designed to:
-- Minimize losses per default
-- Identify high-risk applicants with interpretable features
-- Improve upon the 25% baseline default rate ($1,250 per defaulted customer)
+Developed a logistic regression model that reduces credit card default losses by 50% through:
+- **Cost-sensitive logistic regression** model 
+- **Feature importance analysis** identifying 3 key risk drivers
+- **Dynamic thresholding** saving $625 per application vs industry baseline
 
 ## Business Objectives
 | Goal | Metric | Achievement |
@@ -15,7 +15,33 @@ Developed a logistic regression model to predict credit card defaults and optimi
 | Maintain precision in approvals | Precision > 25% | **54.8%** |
 | Avoid false rejections of good clients|Negative Predictive Value > 75%| **93.9%** |
 
-## Dataset Overview
+## Key Insights
+
+### Top 3 Predictors of Default
+1. **Credit Card Debt**  
+2. **Employment Tenure**  
+3. **Customer Age**
+
+### Financial Impact Analysis
+- Defaults Prevented: 17 (Saved $85,000)
+- Good Customers Rejected: 14 (Lost $35,000)
+- Net Savings: $50,000.00 total | $625.00 per application
+
+### Technical Skills Demonstrated
+- Data Processing:	Pandas, NumPy, Stratified Sampling
+- Feature Selection: SelectKBest, ANOVA F-Test
+- Modeling: Logistic Regression with class_weight='balanced'
+- Evaluation: AUC, Confusion Matrix, Precision, Recall, NPV
+- Optimization: Threshold Tuning, Custom Cost Function
+- Visualization: Matplotlib, Seaborn – ROC, Cost Bar Charts, Heatmaps
+- Business Framing: Cost modeling, ROI analysis, risk mitigation logic
+
+## Model Development
+
+### 1: Data Overview
+✔ View Table Structure  
+✔ Check for Missing Values  
+✔ Visualize distributions
 
 **Dataset Summary:**  
 - **400 rows** | **8 columns**
@@ -34,12 +60,6 @@ Developed a logistic regression model to predict credit card defaults and optimi
 | `outcomes`         | 1 = Default, 0 = No Default |
 
 
-## Python Analysis Process  
-### 1: Data Overview
-✔ View Table Structure  
-✔ Check for Missing Values  
-✔ Visualize distributions
-
 ### 2. Feature Ranking (SelectKBest - ANOVA F-test)
 Identified top predictors based on statistical significance:
 
@@ -53,31 +73,20 @@ Identified top predictors based on statistical significance:
 | Income             | 15.6    | 0.003     |
 | Years at address   | 8.3     | 0.042     |
 
-### Part 3: Model Development (Logistic Regression)
+### Part 3: Logistic Regression Model
 The model was designed not only to classify defaults but to optimize business outcomes by adjusting the classification threshold and calculating the financial cost of decisions.
-
-Trained with class_weight='balanced' to handle imbalance. Threshold tuned to 0.55 to minimize cost per application.
 Key steps:
-1. Stratified Train/Test Split
-2. Feature Scaling (StandardScaler)
-3. Probability Threshold Adjustment
-4. Custom Cost Function Applied
-
-### Part 4: Visualizations:
-- ROC Curve with AUC
-- Confusion Matrix with Accuracy, Recall, Specificity, Precision
-- Cost Comparison Chart: Model vs Baseline
+- Data Split: Stratified Train/Test
+- Scaling: StandardScaler
+- Training: Logistic Regression with class imbalance handling
+- Threshold Tuning: Set to 0.55 for optimal cost
+- Evaluation: Metrics + Custom Cost Function
+- Visualization: ROC, Confusion Matrix, and Cost Comparison Charts
 
 
-## Key Insights
+### Next Steps
+- Test with Larger Dataset
+- Automate Threshold Selection
+- Compare Other Classifiers like Random Forest
 
-### Top 3 Predictors of Default
-1. **Credit Card Debt**  
-2. **Employment Tenure**  
-3. **Customer Age**
-
-### Financial Impact Analysis
-- Defaults Prevented: 17 (Saved $85,000)
-- Good Customers Rejected: 14 (Lost $35,000)
-- Net Savings: $50,000.00 total | $625.00 per application
 

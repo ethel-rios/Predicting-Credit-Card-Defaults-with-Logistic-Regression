@@ -1,13 +1,13 @@
 # Credit Card Default Prediction Analysis
 **`Logistic Regression Model | Cost-Optimized Thresholds | Business Impact`**
 
-## 📌 Introduction
+## Introduction
 Developed a logistic regression model to predict credit card defaults and optimize financial decision-making. The model is designed to:
 - Minimize losses per default
 - Identify high-risk applicants with interpretable features
 - Improve upon the 25% baseline default rate ($1,250 per defaulted customer)
 
-## 🎯 Business Objectives
+## Business Objectives
 | Goal | Metric | Achievement |
 |------|--------|-------------|
 | Reduce default costs | Cost/Event < $1,250 | **$625/event** |
@@ -69,14 +69,14 @@ Key steps:
 - Cost Comparison Chart: Model vs Baseline
 
 
-## 🔍 Key Insights
+## Key Insights
 
-### 🏆 Top 3 Predictors of Default
+### Top 3 Predictors of Default
 1. **Credit Card Debt**  
 2. **Employment Tenure**  
 3. **Customer Age**
 
-### 💰 Financial Impact Analysis
+### Financial Impact Analysis
 - Defaults Prevented: 17 (Saved $85,000)
 - Good Customers Rejected: 14 (Lost $35,000)
 - Net Savings: $50,000.00 total | $625.00 per application

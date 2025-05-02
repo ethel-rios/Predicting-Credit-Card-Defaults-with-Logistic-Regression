@@ -63,7 +63,7 @@ Key steps:
 3. Probability Threshold Adjustment
 4. Custom Cost Function Applied
 
-### Part 4: 📈 Visualizations:
+### Part 4: Visualizations:
 - ROC Curve with AUC
 - Confusion Matrix with Accuracy, Recall, Specificity, Precision
 - Cost Comparison Chart: Model vs Baseline

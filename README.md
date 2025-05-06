@@ -2,7 +2,7 @@
 **`Logistic Regression Model | Cost-Optimized Thresholds | Business Impact`**
 
 ## Introduction
-I developed aa logistic regression model to tackle a critical business challenge: how to dramatically reduce credit card defaults without unnecessarily rejecting good customers. My cost-sensitive logistic regression model achieved both goals, cutting default losses by 50% while preserving approval rates, ultimately saving $625 per application versus industry standards.
+I developed a logistic regression model to tackle a critical business challenge: how to dramatically reduce credit card defaults without unnecessarily rejecting good customers. My cost-sensitive logistic regression model achieved both goals, cutting default losses by 50% while preserving approval rates, ultimately saving $625 per application versus industry standards.
 
 ## Business Objectives
 | Goal | Metric | Achievement |

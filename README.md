@@ -2,10 +2,7 @@
 **`Logistic Regression Model | Cost-Optimized Thresholds | Business Impact`**
 
 ## Introduction
-Developed a logistic regression model that reduces credit card default losses by 50% through:
-- **Cost-sensitive logistic regression** model 
-- **Feature importance analysis** identifying 3 key risk drivers
-- **Dynamic thresholding** saving $625 per application vs industry baseline
+I developed aa logistic regression model to tackle a critical business challenge: how to dramatically reduce credit card defaults without unnecessarily rejecting good customers. My cost-sensitive logistic regression model achieved both goals, cutting default losses by 50% while preserving approval rates, ultimately saving $625 per application versus industry standards.
 
 ## Business Objectives
 | Goal | Metric | Achievement |

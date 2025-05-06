@@ -2,7 +2,7 @@
 **`Logistic Regression Model | Cost-Optimized Thresholds | Business Impact`**
 
 ## Introduction
-I developed a logistic regression model to tackle a critical business challenge: how to reduce credit card defaults without unnecessarily rejecting good customers. By making the model cost-sensitive—assigning a cost of $5,000 to each false negative (missed defaulter) and $2,500 to each false positive (wrongly rejected applicant), it achieved both goals. The model cut default losses by 50% while preserving approval rates, ultimately saving $625 per application compared to industry standards.
+I developed a logistic regression model to tackle a critical business challenge: how to reduce credit card defaults without unnecessarily rejecting good customers. By making the model cost-sensitive, assigning a cost of $5,000 to each false negative (missed defaulter) and $2,500 to each false positive (wrongly rejected applicant), it achieved both goals. The model cut default losses by 50% while preserving approval rates, ultimately saving $625 per application compared to industry standards.
 
 ## Business Objectives
 | Goal | Metric | Achievement |
